@@ -1,0 +1,69 @@
+
+C:\Users\Adil Bozov\Desktop\jar>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C62F-22EC
+
+ Directory of C:\Users\Adil Bozov\Desktop\jar
+
+05.09.2014 ã.  10:08    <DIR>          .
+05.09.2014 ã.  10:08    <DIR>          ..
+05.09.2014 ã.  10:06                24 MyFile.txt
+05.09.2014 ã.  09:54               448 SortArra.java
+               2 File(s)            472 bytes
+               2 Dir(s)  117 922 390 016 bytes free
+
+C:\Users\Adil Bozov\Desktop\jar>javac SortArra.java
+
+C:\Users\Adil Bozov\Desktop\jar>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C62F-22EC
+
+ Directory of C:\Users\Adil Bozov\Desktop\jar
+
+05.09.2014 ã.  10:10    <DIR>          .
+05.09.2014 ã.  10:10    <DIR>          ..
+05.09.2014 ã.  10:06                24 MyFile.txt
+05.09.2014 ã.  10:10               868 SortArra.class
+05.09.2014 ã.  09:54               448 SortArra.java
+               3 File(s)          1 340 bytes
+               2 Dir(s)  117 917 208 576 bytes free
+
+C:\Users\Adil Bozov\Desktop\jar>jar cfm MyJarfile.jar MyFile.txt SortArra.class
+
+C:\Users\Adil Bozov\Desktop\jar>
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+C:\Users\Adil Bozov\Desktop\jar>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C62F-22EC
+
+ Directory of C:\Users\Adil Bozov\Desktop\jar
+
+05.09.2014 ã.  10:15    <DIR>          .
+05.09.2014 ã.  10:15    <DIR>          ..
+05.09.2014 ã.  10:06                24 MyFile.txt
+05.09.2014 ã.  10:15             1 025 MyJarfile.jar
+05.09.2014 ã.  10:10               868 SortArra.class
+05.09.2014 ã.  09:54               448 SortArra.java
+               4 File(s)          2 365 bytes
+               2 Dir(s)  117 945 028 608 bytes free
+
+C:\Users\Adil Bozov\Desktop\jar>java -jar MyJarfile.jar
+Counting words
+5
+Sofia
+Plovdiv
+Varna
+Pleven
+Bourgas
+Bourgas
+Pleven
+Plovdiv
+Sofia
+Varna
+
+C:\Users\Adil Bozov\Desktop\jar>
+

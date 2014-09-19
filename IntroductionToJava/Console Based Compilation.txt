@@ -1,0 +1,34 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Adil Bozov>d:
+
+D:\>cd D:\Soft\JAVA\IntroductionToJava\src
+
+D:\Soft\JAVA\IntroductionToJava\src>dir
+ Volume in drive D has no label.
+ Volume Serial Number is 82D5-3924
+
+ Directory of D:\Soft\JAVA\IntroductionToJava\src
+
+04.09.2014 ã.  11:23    <DIR>          .
+04.09.2014 ã.  11:23    <DIR>          ..
+04.09.2014 ã.  10:03               177 CurrentDateTime.java
+04.09.2014 ã.  10:02               115 Hometown.java
+04.09.2014 ã.  11:23               653 SumTwoNumbers.class
+04.09.2014 ã.  10:51               354 SumTwoNumbers.java
+               4 File(s)          1 299 bytes
+               2 Dir(s)  268 608 761 856 bytes free
+
+D:\Soft\JAVA\IntroductionToJava\src>set path=%path%;C:\Program Files\Java\jdk1.8
+.0_40\bin
+
+D:\Soft\JAVA\IntroductionToJava\src>javac SumTwoNumbers.java
+
+D:\Soft\JAVA\IntroductionToJava\src>java SumTwoNumbers
+Enter two integers on seperate lines:
+5
+7
+12
+
+D:\Soft\JAVA\IntroductionToJava\src>
